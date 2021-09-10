@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio vista 500px</title>
+</head>
+<body>
+    
+<!--     <article id="movil">Movil</article> -->
+    <script>
+        /* Con css */
+        /* var movil = document.getElementById('movil')
+
+        if(window.innerWidth <= 500)
+        {
+                movil.style.display = "block"
+        }
+        else if(window.innerWidth > 500)
+        {
+                movil.style.display = "none"
+        } */
+
+        /* Con remove */
+        var article = document.createElement(article)
+        article.innerText = "Movil"
+        document.body.appendChild(article)
+
+        if(window.innerWidth > 500)
+        {
+                article.remove()
+        }
+
+    </script>
+</body>
+</html>
